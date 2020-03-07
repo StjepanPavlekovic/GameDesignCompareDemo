@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700&display=swap");
+
 .webgl-content * {
   border: 0;
   margin: 0;
@@ -77,6 +79,9 @@
   margin-right: 10px;
   float: right;
   color: rgb(212, 212, 212);
+  font-family: "Poppins", sans-serif;
+  -webkit-text-stroke: 1px black;
+  font-size: 1.2em;
 }
 .webgl-content .footer .fullscreen {
   background-image: url("fullscreen.png");
@@ -84,12 +89,17 @@
   float: right;
 }
 .info {
+  font-size: 1.2em;
   margin: auto;
   padding-bottom: 50px;
   padding-top: 30px;
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgb(212, 212, 212);
+  -webkit-text-stroke: 1px black;
+}
+.info h1 {
+  color: white;
 }
 
 body {
